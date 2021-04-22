@@ -42,11 +42,10 @@ body {
     background: white;
   }
   .bgCircle {
-    border-radius: 50%;
+    border-radius: 10px;
     width: 230px;
     height: 230px;
-    background-color: #24CED0;
-    color: white;
+    background-color: white;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;
@@ -54,6 +53,7 @@ body {
     margin: 10px;
     float: left;
     font-size: 13px;
+    box-shadow: 0 22px 40px rgb(0 0 0 / 10%);
   
   }
   
