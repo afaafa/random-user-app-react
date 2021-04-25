@@ -3,18 +3,9 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <div className='footer'>
-        <div className='footer-inner'>
-          <div className='footer-logo'>
-            <p>Learn to code, learn to creative.</p>
-          </div>
-          <ul className='footer-list'>
-            <li>Tentang Kami</li>
-            <li>Rekrut</li>
-            <li>Hubungi Kami</li>
-          </ul>
-        </div>
-      </div>
+        <footer>
+            <p>Copyright &#169; 2021, Fathonah Zuchriyah</p>
+        </footer>
     );
   }
 }
