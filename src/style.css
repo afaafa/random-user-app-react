@@ -9,7 +9,7 @@ body {
   min-width: 1280px;
 }
 
-#navbar {
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -20,7 +20,7 @@ body {
   z-index: 3;
 }
 
-#navbar a {
+.navbar a {
   color: #333;
   text-align: center;
   padding: 15px;
@@ -28,7 +28,7 @@ body {
   font-size: 20px;
 }
 
-#navbar a:hover {
+.navbar a:hover {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
   font-weight: bold;
@@ -36,6 +36,12 @@ body {
   text-decoration-thickness: 5px;
   text-underline-offset: 4px;
   text-decoration-color: #769fcd;
+}
+
+.nav_white {
+  background-color: rgb(255 255 255 / 90%);
+  box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+  z-index:10;
 }
 
 .nav_list {
