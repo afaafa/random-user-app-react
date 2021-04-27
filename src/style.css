@@ -66,44 +66,18 @@ nav > h2 {
   display: none;
 }
 
-.title {
-  color: white;
-}
-h1, h2, p, ul, li {
-  font-family: sans-serif;
-}
-ul.header li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-}
-ul.header {
-  background-color: #24CED0;
-  padding: 0;
-}
-ul.header li a {
-  color: #FFF;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 20px;
-  display: inline-block;
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  min-width: 44px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .content {
-  background-color: #FFF;
-  padding: 20px;
-}
-.content h2 {
-  padding: 0;
-  margin: 0;
-}
-.content li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.boxWhite {
-  height: 700px;
-  background: white;
-}
 .bgCircle {
   border-radius: 10px;
   width: 230px;

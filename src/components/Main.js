@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import Australia from "./Australia";
 import Turkey from "./Turkey";
@@ -10,7 +10,7 @@ class Main extends Component {
     return (
       <HashRouter>
         <main className="container">
-          <div>
+          <div id="content" class="content">
             <Route exact path="/" component={Home}/>
             <Route exact path="/australia" component={Australia}/>
             <Route exact path="/turkey" component={Turkey}/>
