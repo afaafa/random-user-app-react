@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route, NavLink, HashRouter } from "react-router-dom";
+import Jumbotron from './Jumbotron';
 
 class Header extends React.Component {
     listener = null;
@@ -44,6 +45,7 @@ class Header extends React.Component {
                         <i class="fa fa-bars"></i>
                     </a>
                 </nav>
+                <Jumbotron />
             </header>
         </HashRouter>
     );
