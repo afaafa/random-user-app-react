@@ -30,7 +30,7 @@ class Australia extends Component {
         const {items} = this.state;
             return (
                 <div className="boxWhite">
-                    <h2>Random User</h2>
+                    <h2>Random User From Australia</h2>
                     {
                         items.length > 0 ? items.map(item => {
                             const {id, firstName, lastName, location, thumbnail} = item;
