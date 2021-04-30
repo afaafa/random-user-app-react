@@ -77,9 +77,22 @@ nav > h2 {
   background-color: #d6e6f2;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+  width: 100%;
+  background-position: center;
+  background-image: url('./assets/images/people.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+}
+
 .intro > p {
   font-size: 50px;
   font-weight: lighter;
+  color: whitesmoke;
 }
 
 .container {
