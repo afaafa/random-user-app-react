@@ -104,29 +104,24 @@ nav > h2 {
   margin: 0 auto;
 }
 .content {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .boxWhite {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 65px;
   padding: 0 15px 15px 15px;
   margin-top: 20px;
 }
 
-.bgCircle {
-  border-radius: 10px;
-  width: 230px;
-  height: 230px;
+.card {
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
   background-color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin: 10px;
-  float: left;
-  font-size: 13px;
   box-shadow: 0 22px 40px rgb(0 0 0 / 10%);
 
 }

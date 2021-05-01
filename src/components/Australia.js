@@ -29,22 +29,24 @@ class Australia extends Component {
     render() {
         const {items} = this.state;
             return (
-                <div className="boxWhite">
+                <div>
                     <h2>Random User From Australia</h2>
-                    {
-                        items.length > 0 ? items.map(item => {
-                            const {id, firstName, lastName, location, thumbnail} = item;
-                            return (
-                                <div key={id} className="bgCircle">
-                                    <center><img src={thumbnail} alt={firstName} className="circle"/></center><br/>
-                                    <div className="ctr">
-                                        {firstName} {lastName} <br/>
-                                        {location}
+                    <div className="boxWhite">
+                        {
+                            items.length > 0 ? items.map(item => {
+                                const {id, firstName, lastName, location, thumbnail} = item;
+                                return (
+                                    <div key={id} className="card">
+                                        <center><img src={thumbnail} alt={firstName} className="circle"/></center><br/>
+                                        <div className="ctr">
+                                            {firstName} {lastName} <br/>
+                                            {location}
+                                        </div>
                                     </div>
-                                </div>
-                            );
-                        }) : null
-                    }
+                                );
+                            }) : null
+                        }
+                    </div>
                 </div>
             );
     }
