@@ -34,7 +34,7 @@ class Header extends React.Component {
         <HashRouter>
             <header>
                 <nav className={`navbar ${this.state.nav && "nav_white"}`}>
-                    <h2>The Talents</h2>
+                    <h2>The People</h2>
                     <ul id="drawer" className="nav_list">
                         <li className="nav_item"><NavLink exact to="/">Home</NavLink></li>
                         <li className="nav_item"><NavLink to="/australia">Australia</NavLink></li>
